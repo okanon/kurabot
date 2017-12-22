@@ -1,0 +1,171 @@
+﻿<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta http-equiv="content-language" content="ja">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+    <title>くらちゃそBOT</title>
+    <meta property="og:title" content="くらちゃそBOT">
+    <meta property="og:locale" content="ja_JP">
+    <meta name="description" content="LineBot">
+    <meta property="og:description" content="LineBot">
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+ 
+
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+  </head>
+  <style>
+
+      @font-face {
+          font-family: "kozL";
+          src: url(KozGoPr6N-Light.otf);
+      }
+
+      body {
+          background: linear-gradient(0deg, rgb(80, 190, 160), rgb(30, 200, 50));
+          color: white;
+          font-family: 'Open Sans', Meiryo, sans-serif;
+          padding-top: 100px !important;
+          max-width: 980px;
+          margin-right: auto;
+          margin-left: auto;
+          display: block;
+          text-align: center !important;
+          display: none;
+      }
+
+    .credits-top {
+      font-size: 0.80em;
+      padding-right: 10px;
+      padding-left: 10px;
+      color: rgba(255, 255, 255, 0.5);
+
+    }
+    .ellipse-btn {
+
+      color: white;
+      text-decoration:none;
+      background: #1896c65c;
+      box-shadow: 0px 0px 25px #1896c65c;
+      
+      padding-top: 13px !important;
+      padding-right: 40px !important;
+      padding-left: 40px !important;
+      padding-bottom: 13px !important;
+      
+      border-radius: 100px;
+      font-weight: bold;
+
+    }
+
+    .credits-bottom {
+      font-size: 0.9em;
+      padding-top: 100px !important;
+      padding-right: 10px;
+      padding-left: 10px;
+      color: rgba(255, 255, 255, 0.5);
+
+    }
+
+    .buy {
+      display: inline-block;
+      padding: 30px;
+      padding-left: 50px;
+      padding-top: 5px !important;
+      text-align: left;
+      opacity: 0.9;
+      font-size: 0.9em;
+    }
+
+
+    .dotted-list {
+      display: inline-block;
+      padding: 30px;
+      padding-left: 50px;
+      padding-top: 5px !important;
+      text-align: left;
+      opacity: 0.9;
+      list-style-type: circle;
+      font-size: 0.85em;
+    }
+
+    .warning-message {
+      font-size: 0.7em;
+
+      color: rgba(255, 255, 255, 0.8);
+    }
+
+  .line-link {
+      color: rgba(255, 255, 255, 0.5);
+        text-decoration: underline;
+    }
+  </style>
+
+
+  <body>
+      <img width='40%' src="./logo.png">
+      <p class="credits-top">LINE 7.18.1 and PC LINE 5.5.1 API by <a class="line-link" href="http://line.me/ti/p/~kotyan_">@kotya</a>.</p>
+      <p class="credits-top">framework made by <a class="line-link" href="https://github.com/xlopn">Lopn</a> & <a class="line-link" href="https://github.com/okanon">kotya</a></p>
+
+      <h2 style="padding-top: 50px; opacity: 0.9">What's new?</h2>
+      <p>beta 7</p>
+      <ol class="dotted-list">
+          <li>LINEの新しいログインロジックに対応しました</li>
+          <li>クラちゃそBOTをC++(一部COM C#)のライブラリで動かすようにしました</li>
+          <li>グループ保護の際に画像変更を検知し<br>指定した画像に変更しなおせるようにしました</li>
+          <li>対象グループの最新の招待のみをキャンセルできるようにしました</li>
+          <li>一時的に招待券制度は廃止しました</li>
+      </ol>
+
+      <p>stable 6</p>
+      <ol class="dotted-list">
+          <li>ブラックリストユーザーが既読・トークした場合<br>退会させるようにしました</li>
+          <li>招待券制度を実装しました。(beta)</li>
+          <li>ランダムトークのアルゴリズムを変更しました</li>
+      </ol>
+
+      <div style="padding-top: 10px;">
+          <a class="ellipse-btn" href="https://goo.gl/aP2mUu" rel="nofollow">クラちゃそBOTの機能を見る</a>
+      </div>
+
+      <h2 style="padding-top: 50px; opacity: 0.9">個人専用BOTの販売</h2>
+      <p>クラちゃそBOT以外の権限販売以外に、個人の専用BOTを作成しています。</p>
+      <ol class="dotted-list">
+          <li>グループ保護BOT</li>
+          <li>多機能BOT</li>
+          <li>破壊BOT(規制が強いためお勧めしません)</li>
+          <li>BOT化(半BOT)</li>
+          <li>便利機能BOT</li>
+          <li>LINE Messaging APIを用いたトーク専用BOT</li>
+      </ol>
+
+      <div style="padding-top: 10px;">
+          <a class="ellipse-btn" href="" rel="nofollow">専用BOTの機能を見る</a>
+      </div>
+
+      <h2 style="padding-top: 50px; opacity: 0.9">購入</h2>
+      <p>購入に際しての注意事項</p>
+      <ol class="buy">
+          <li>支払いは基本LinePayかAmazonギフトになります(要相談)</li>
+          <li>招待規制にかかった場合1度に限り保証されます<br>アカウントを自前で用意できる場合は無料で復旧します</li>
+          <li>支払いに関して、基本後払いが可能ですが、値段は先払いより高めに設定されています</li>
+          <li>返金には原則対応していませんのでご留意下さい</li>
+          <li>BOTを使用するにあたっての<strong><a style="color: #fff; text-decoration: underline;" href="">制限と制約事項</a></strong>に反した場合、最悪サービス提供を停止することがあります</li>
+      </ol>
+
+      <div style="padding-top: 10px;">
+          <a class="ellipse-btn" href="" rel="nofollow">BOTを購入する</a>
+      </div>
+
+      <p style="padding-top: 30px;" class="warning-message">copyright (c) 2017 kotya.<br>developer:<a class="line-link" href="https://github.com/okanon">@kotya</a></p>
+
+      <script type="text/javascript">
+          $(document).ready(function () {
+              $('body').fadeIn(1000);
+          });
+      </script>
+  </body>
+
+
+</html>
