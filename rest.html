@@ -1,0 +1,132 @@
+﻿<html lang="ja">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta http-equiv="content-language" content="ja">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+    <title>制約</title>
+    <meta property="og:title" content="制約">
+    <meta property="og:locale" content="ja_JP">
+    <meta name="description" content="LineBot">
+    <meta property="og:description" content="LineBot">
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+
+
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+</head>
+<style>
+
+    @font-face {
+        font-family: "kozL";
+        src: url(KozGoPr6N-Light.otf);
+    }
+
+    body {
+        background: linear-gradient(0deg, rgb(80, 190, 160), rgb(30, 200, 50));
+        color: white;
+        font-family: 'Open Sans', Meiryo, sans-serif;
+        padding-top: 100px !important;
+        max-width: 980px;
+        margin-right: auto;
+        margin-left: auto;
+        display: block;
+        text-align: center !important;
+        display: none;
+    }
+
+    .credits-top {
+        font-size: 0.80em;
+        padding-right: 10px;
+        padding-left: 10px;
+        color: rgba(255, 255, 255, 0.5);
+    }
+
+    .ellipse-btn {
+        color: white;
+        text-decoration: none;
+        background: #1896c65c;
+        box-shadow: 0px 0px 25px #1896c65c;
+        padding-top: 13px !important;
+        padding-right: 40px !important;
+        padding-left: 40px !important;
+        padding-bottom: 13px !important;
+        border-radius: 100px;
+        font-weight: bold;
+    }
+
+    .credits-bottom {
+        font-size: 0.9em;
+        padding-top: 100px !important;
+        padding-right: 10px;
+        padding-left: 10px;
+        color: rgba(255, 255, 255, 0.5);
+    }
+
+    .buy {
+        display: inline-block;
+        padding: 30px;
+        padding-left: 50px;
+        padding-top: 5px !important;
+        text-align: left;
+        opacity: 0.9;
+        font-size: 0.9em;
+    }
+
+
+    .dotted-list {
+        display: inline-block;
+        padding: 30px;
+        padding-left: 50px;
+        padding-top: 5px !important;
+        text-align: left;
+        opacity: 0.9;
+        list-style-type: circle;
+        font-size: 0.85em;
+    }
+
+    .warning-message {
+        font-size: 0.7em;
+        color: rgba(255, 255, 255, 0.8);
+    }
+
+    .line-link {
+        color: rgba(255, 255, 255, 0.5);
+        text-decoration: underline;
+    }
+
+    .logo_size {
+        width: 40%;
+    }
+
+    @media only screen and (max-device-width: 480px) {
+        .logo_size {
+            width: 50%;
+        }
+    }
+</style>
+
+<body>
+    <img class="logo_size" src="./src/logo.png">
+    <p class="credits-top">LINE 7.18.1 and PC LINE 5.5.1 API by <a class="line-link" href="http://line.me/ti/p/~kotyan_">@kotya</a>.</p>
+    <p class="credits-top">framework made by <a class="line-link" href="https://github.com/xlopn">Lopn</a> & <a class="line-link" href="https://github.com/okanon">kotya</a></p>
+
+
+    <div style="padding-top: 100px;">
+        <a class="ellipse-btn" href="buy.html" rel="nofollow">購入</a>
+        <a class="ellipse-btn" href="index.html" rel="nofollow">ホームに戻る</a>
+    </div>
+
+    <footer>
+        <p style="padding-top: 30px;" class="warning-message">copyright (c) 2017 kotya.<br>developer:<a class="line-link" href="https://github.com/okanon">@kotya</a></p>
+    </footer>
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('body').fadeIn(1000);
+        });
+    </script>
+</body>
+
+
+</html>
