@@ -111,6 +111,44 @@
     <p class="credits-top">LINE 7.18.1 and PC LINE 5.5.1 API by <a class="line-link" href="http://line.me/ti/p/~kotyan_">@kotya</a>.</p>
     <p class="credits-top">framework made by <a class="line-link" href="https://github.com/xlopn">Lopn</a> & <a class="line-link" href="https://github.com/okanon">kotya</a></p>
 
+    <h2 style="padding-top: 50px; opacity: 0.9">クラちゃそBOTの機能一覧</h2>
+    <p>beta 7</p>
+    <ol class="dotted-list">
+        <p>Lv01 権限</p>
+        <li>mid >> ユーザー識別IDの表示</li>
+        <li>gid >> グループ識別IDの表示</li>
+        <li>profile >> ユーザーのプロフィール情報の表示</li>
+        <li>group >> グループの情報を表示</li>
+        <li>license >> BOTのライセンスの表示</li>
+        <li>help >> BOTのヘルプを表示</li>
+        <li>author >> BOTの作成者の連絡先を表示</li>
+
+        <p>Lv02 権限</p>
+        <li>how2 >> BOTのHow to Useを表示します *1</li>
+        <li>cancel >> グループ招待のキャンセル機能 *2</li>
+        <li>creator >> グループの作成者(一番古いユーザー)の連絡先を表示</li>
+        <li>protect >> 簡易的なグループ保護(招待に関する保護のみ) *3</li>
+        <li>unprotect >> 簡易的なグループ保護の解除</li>
+        <li>groupcall >> 現在のグループ通話の状況を表示</li>
+        <li>noisy >> BOTを通常トークに戻します(silent時のみ)</li>
+        <li>silent >> BOTがトークしないようにします</li>
+        <li>gurl >> グループ招待用のURLを発行します *4</li>
+
+        <p>Lv03 権限</p>
+        <li>prevent >> 招待URLによる参加の設定をオフにします</li>
+        <li>release >> 招待URLによる参加の設定をオンにします</li>
+        <li>defense >> グループを防衛します(protectコマンドの上位互換) *5</li>
+        <li>nondefense >> グループ防衛を解除します</li>
+        <li>cancel_new >> グループの最新の招待のみをキャンセルします *6</li>
+    </ol>
+
+    <p style="font-size: 12px; text-align: left; margin: 0px 20px 0px 20px;">
+    <strong>*1</strong> helpより詳細なヘルプを表示します。この場合Lv02以上の権限に対するコマンドの詳細です。
+    <strong>*2</strong> 招待されている全員をキャンセルします。
+    <strong>*3</strong> グループ招待のみを保護する機能です。Lv03機能のdefenseが有効かされている場合は使えません。
+    <strong>*4</strong> Lv03機能のpreventが有効な場合は取得できません。
+    <strong>*5</strong> グループ招待・グループ名変更・グループ画像変更・招待URLの設定が許可された場合に保護をします。グループの名前・画像・招待URLの設定は元に戻されます。
+    <strong>*6</strong> 既に最新の招待がキャンセルされている場合はキャンセルできません。</p>
 
     <div style="padding-top: 100px;">
         <a class="ellipse-btn" href="buy.html" rel="nofollow">BOTの権限を購入する</a>
